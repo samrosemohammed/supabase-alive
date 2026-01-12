@@ -1,0 +1,152 @@
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:39381 ...
+; Hooking up nREPL sessions on port 39381...
+; Connected session: clj, port: 39381
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+; Hello, World!
+nil
+clj꞉supabase-alive.core꞉> 
+; Hello, World!
+nil
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> 
+; Hello, World!
+nil
+clj꞉supabase-alive.core꞉> 
+3
+clj꞉supabase-alive.core꞉> 
+; Syntax error compiling at (src/supabase_alive/core.clj:16:7).
+; No such namespace: e
+clj꞉supabase-alive.core꞉> 
+; Syntax error compiling at (src/supabase_alive/core.clj:12:7).
+; No such namespace: e
+clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:43059 ...
+; Hooking up nREPL sessions on port 43059...
+; Connected session: clj, port: 43059
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/supabase-url
+clj꞉supabase-alive.core꞉> 
+; Syntax error compiling at (src/supabase_alive/core.clj:11:7).
+; Unable to resolve symbol: driver in this context
+clj꞉supabase-alive.core꞉> 
+; Execution error (ExceptionInfo) at etaoin.api/wait-predicate (api.clj:2496).
+; throw+: {:type :etaoin/timeout, :message "Wait until {:tag :a, :attr {:href \"/dashboard\"}} element is visible", :timeout 7, :interval 0.33, :times 22, :predicate #function[etaoin.api/wait-visible/fn--4768]}
+clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:38489 ...
+; Hooking up nREPL sessions on port 38489...
+; Connected session: clj, port: 38489
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:35863 ...
+; Hooking up nREPL sessions on port 35863...
+; Connected session: clj, port: 35863
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:38561 ...
+; Hooking up nREPL sessions on port 38561...
+; Connected session: clj, port: 38561
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:37599 ...
+; Hooking up nREPL sessions on port 37599...
+; Connected session: clj, port: 37599
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/service-key
+clj꞉supabase-alive.core꞉> 
+nil
+clj꞉supabase-alive.core꞉> 
+nil
+clj꞉supabase-alive.core꞉> 
+nil
+clj꞉supabase-alive.core꞉> 
+()
+clj꞉supabase-alive.core꞉> (get-users
+                           )
+; Execution error (ExceptionInfo) at clj-http.client/exceptions-response (client.clj:240).
+; clj-http: status 401
+clj꞉supabase-alive.core꞉> 
+; Connecting using "Leiningen" project type.
+; Connecting ...
+; Reading port file: file:///home/mohammed-samrose/Desktop/supabase-alive/.nrepl-port ...
+; No nrepl port file found.
+; Hooking up nREPL sessions on port 46231...
+; Connected session: clj, port: 46231
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"sb_secret_5ruq_uqp6sEkX6ZnG42g-A_gvljRzfN"
+clj꞉supabase-alive.core꞉> (get-users)
+[{:email "bekey148@gmail.com", :updatedAt "2025-12-13T14:44:16.931", :name "Be key", :username "bekey", :grantEmail "bekey148@gmail.com", :createdAt "2025-12-13T14:35:16.452", :emailVerified nil, :id "cmj4ee7ab0000bwisqn1jpddl", :grantId "ad8a93d6-b62e-4864-9b53-07b26f66363a", :image "https://lh3.googleusercontent.com/a/ACg8ocJ5717msv_M3rRU3cIguyIQeSRLLcFpEGjs51A1p6Vb9XWK0A=s96-c"}]
+clj꞉supabase-alive.core꞉> (:email (get-users))
+nil
+clj꞉supabase-alive.core꞉> 
+(prn (:email (first ())))
+()
+clj꞉supabase-alive.core꞉> 
+(:email (get (get-users) 0))
+"bekey148@gmail.com"
+clj꞉supabase-alive.core꞉> 
+; nREPL Connection was closed for client: nrepl-client-3, port: 46231
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /home/mohammed-samrose/Desktop/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:36893 ...
+; Hooking up nREPL sessions on port 36893...
+; Connected session: clj, port: 36893
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
