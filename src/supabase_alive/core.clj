@@ -4,7 +4,7 @@
             [cheshire.core :as json]))
 
 
-()
+
 
 (def supabase-url "https://rewckqeamybaijuwyiox.supabase.co/rest/v1")
 (def service-key (System/getenv "SERVICE_KEY"))
