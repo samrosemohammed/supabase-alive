@@ -5,13 +5,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
   # Optional: run every 5 minutes
-  # schedule:
-  #   - cron: "*/5 * * * *"
+  schedule:
+    - cron: "*/5 * * * *"
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 7
 
     steps:
       - name: Checkout repository
