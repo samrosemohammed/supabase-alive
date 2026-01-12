@@ -1,0 +1,25 @@
+name: "Supabase ALive Job"
+on:
+  schedule:
+    - cron: "*/5 * * * *" # Runs every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  supabase-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Clojure
+        uses: DeLaGuardo/setup-clojure@v1
+        with:
+          clojure-version: "1.10.3.1040" # Specify the desired Clojure version
+
+      - name: Install Dependencies
+        run: lein deps
+
+      - name: Run Supabase Alive Script
+        env:
+          SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
+        run: lein run -m supabase-alive.core
