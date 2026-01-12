@@ -17,8 +17,13 @@ jobs:
           java-version: "11"
           distribution: "temurin"
 
+      - name: Set up Leiningen
+        uses: DeLaGuardo/setup-clojure@v11
+        with:
+          lein: latest
+
       - name: Run project
         env:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
         run: |
-          clj -M -m supabase-alive.core
+          lein run -m supabase-alive.core
