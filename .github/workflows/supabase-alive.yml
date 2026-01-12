@@ -5,21 +5,20 @@ on:
   workflow_dispatch:
 
 jobs:
-  supabase-alive:
+  run-project:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Clojure
-        uses: DeLaGuardo/setup-clojure@v11
+      - name: Set up Java
+        uses: actions/setup-java@v3
         with:
-          clojure-version: "1.10.3.1040" # Specify the desired Clojure version
+          java-version: "11"
+          distribution: "temurin"
 
-      - name: Install Dependencies
-        run: lein deps
-
-      - name: Run Supabase Alive Script
+      - name: Run project
         env:
           SERVICE_KEY: ${{ secrets.SERVICE_KEY }}
-        run: lein run -m supabase-alive.core
+        run: |
+          clj -M -m supabase-alive.core
