@@ -22,8 +22,7 @@
 (defn -main [& _]
   (println "Starting Supabase Alive...")
   (let [users (get-users)]
-    (println "Fetched users:")
     (doseq [u users]
       (println "typeJ" (type u))
       (prn (:email u))
-      (println u))))
+      )))
