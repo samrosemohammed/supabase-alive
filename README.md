@@ -2,40 +2,16 @@
 
 FIXME: description
 
+## Problem Statement
+Free-tier cloud services like Supabase and others tend to pause our unused projects after a certain number of days, leading to issues in production (as our cloud resources can no longer be accessed by our users).
+
+
 ## Concepts
 
 - REPL Driven Programming
 - Interactive Programming
 - Observability
 - Data Driven Programming
-
-## Installation
-
-Download from https://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar supabase-alive-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-
-### That You Think
-
-### Might be Useful
 
 ## License
 

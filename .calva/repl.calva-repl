@@ -177,3 +177,307 @@ nil
 clj꞉supabase-alive.core꞉> 
 ; Jack-in done.
 clj꞉supabase-alive.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /Users/parasbhandari/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless)
+; Using host:port 127.0.0.1:50880 ...
+; Hooking up nREPL sessions on port 50880...
+; Connected session: clj, port: 50880
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> 
+; Syntax error compiling at (src/supabase_alive/core.clj:12:1).
+; No such var: config/api-key
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (-main)
+; Starting Supabase Alive...
+; Execution error (ExceptionInfo) at slingshot.support/stack-trace (support.clj:201).
+; clj-http: status 401
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/get-users
+clj꞉supabase-alive.core꞉> (get-users)
+; Execution error (ExceptionInfo) at slingshot.support/stack-trace (support.clj:201).
+; clj-http: status 401
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (get-users)
+; Execution error (ExceptionInfo) at slingshot.support/stack-trace (support.clj:201).
+; clj-http: status 401
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (get-schools)
+[{:id "f14a9437-d7a0-4120-804c-22978dbcb818",
+  :name "Shanti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:58:10.401554+00:00",
+  :updated_at "2025-08-30T14:58:10.401554+00:00",
+  :organization_code "470230006"}
+ {:id "064837cc-0290-459b-929c-cd00fb36a3c3",
+  :name "Chandrodaya Secondary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230010"}
+ {:id "f7a89f9c-37b5-4a06-90f3-ae90f212651f",
+  :name "Shiva Shakti Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230014"}
+ {:id "ba1e4e3f-1c19-453f-af92-923f910bacd0",
+  :name "Shankar Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230007"}
+ {:id "69217bd0-30a5-4d67-8142-73cbfe656a26",
+  :name "Gyan Manjari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230002"}
+ {:id "bf16c42e-5d45-4b41-bd65-068f261386d4",
+  :name "Chhamke Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230009"}
+ {:id "b8c15dcd-665c-44ef-b4df-241a35e992bd",
+  :name "Bal Jyoti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230005"}
+ {:id "ac233bc3-83d8-4b93-9955-4e666f1ac67c",
+  :name "Belghari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230003"}
+ {:id "59bc6f2c-db2b-4892-b96d-55be14a0b2ef",
+  :name "Balhit Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230004"}]
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (-main)
+; Starting Supabase Alive...
+[{:id "f14a9437-d7a0-4120-804c-22978dbcb818",
+  :name "Shanti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:58:10.401554+00:00",
+  :updated_at "2025-08-30T14:58:10.401554+00:00",
+  :organization_code "470230006"}
+ {:id "064837cc-0290-459b-929c-cd00fb36a3c3",
+  :name "Chandrodaya Secondary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230010"}
+ {:id "f7a89f9c-37b5-4a06-90f3-ae90f212651f",
+  :name "Shiva Shakti Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230014"}
+ {:id "ba1e4e3f-1c19-453f-af92-923f910bacd0",
+  :name "Shankar Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230007"}
+ {:id "69217bd0-30a5-4d67-8142-73cbfe656a26",
+  :name "Gyan Manjari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230002"}
+ {:id "bf16c42e-5d45-4b41-bd65-068f261386d4",
+  :name "Chhamke Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230009"}
+ {:id "b8c15dcd-665c-44ef-b4df-241a35e992bd",
+  :name "Bal Jyoti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230005"}
+ {:id "ac233bc3-83d8-4b93-9955-4e666f1ac67c",
+  :name "Belghari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230003"}
+ {:id "59bc6f2c-db2b-4892-b96d-55be14a0b2ef",
+  :name "Balhit Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230004"}]
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (-main)
+; Starting Supabase Alive...
+; Execution error (ExceptionInfo) at slingshot.support/stack-trace (support.clj:201).
+; clj-http: status 401
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> (api-key)
+; Execution error (NullPointerException) at supabase-alive.config/eval13981 (repl.calva-repl:383).
+; Cannot invoke "clojure.lang.IFn.invoke()" because the return value of "clojure.lang.Var.getRawRoot()" is null
+clj꞉supabase-alive.config꞉> api-key
+nil
+clj꞉supabase-alive.config꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; Starting Jack-in: (cd /Users/parasbhandari/supabase-alive; lein update-in :dependencies conj '[nrepl,"1.5.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.58.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless)
+; Using host:port 127.0.0.1:51562 ...
+; Hooking up nREPL sessions on port 51562...
+; Connected session: clj, port: 51562
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉supabase-alive.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉supabase-alive.core꞉> 
+; Jack-in done.
+clj꞉supabase-alive.core꞉> 
+#'supabase-alive.config/api-key
+clj꞉supabase-alive.config꞉> api-key
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5tdmFlcmV1YWZoaXZwdmxlc3NlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg2Njc2MzcsImV4cCI6MjA2NDI0MzYzN30.V9CkVAsayvk5K6bShEW9-Si4wD7vXX_ZahgUkR551TY"
+clj꞉supabase-alive.config꞉> 
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> (-main)
+; Starting Supabase Alive...
+[{:id "f14a9437-d7a0-4120-804c-22978dbcb818",
+  :name "Shanti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:58:10.401554+00:00",
+  :updated_at "2025-08-30T14:58:10.401554+00:00",
+  :organization_code "470230006"}
+ {:id "064837cc-0290-459b-929c-cd00fb36a3c3",
+  :name "Chandrodaya Secondary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230010"}
+ {:id "f7a89f9c-37b5-4a06-90f3-ae90f212651f",
+  :name "Shiva Shakti Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230014"}
+ {:id "ba1e4e3f-1c19-453f-af92-923f910bacd0",
+  :name "Shankar Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230007"}
+ {:id "69217bd0-30a5-4d67-8142-73cbfe656a26",
+  :name "Gyan Manjari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230002"}
+ {:id "bf16c42e-5d45-4b41-bd65-068f261386d4",
+  :name "Chhamke Basic School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230009"}
+ {:id "b8c15dcd-665c-44ef-b4df-241a35e992bd",
+  :name "Bal Jyoti Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-10-27T08:02:06.519372+00:00",
+  :updated_at "2025-10-27T08:02:06.519372+00:00",
+  :organization_code "470230005"}
+ {:id "ac233bc3-83d8-4b93-9955-4e666f1ac67c",
+  :name "Belghari Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230003"}
+ {:id "59bc6f2c-db2b-4892-b96d-55be14a0b2ef",
+  :name "Balhit Primary School",
+  :address nil,
+  :phone nil,
+  :email nil,
+  :created_at "2025-08-30T14:47:42.047533+00:00",
+  :updated_at "2025-08-30T14:47:42.047533+00:00",
+  :organization_code "470230004"}]
+#'supabase-alive.core/-main
+clj꞉supabase-alive.core꞉> 

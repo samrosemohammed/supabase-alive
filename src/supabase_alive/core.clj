@@ -1,18 +1,20 @@
 (ns supabase-alive.core
   (:gen-class)
   (:require [clj-http.client :as http]
-            [cheshire.core :as json]))
+            [cheshire.core :as json]
+            [supabase-alive.config :as config]
+            ))
 
 
 
 
-(def supabase-url "https://rewckqeamybaijuwyiox.supabase.co/rest/v1")
-(def service-key (System/getenv "SERVICE_KEY"))
+(def supabase-url "https://nmvaereuafhivpvlesse.supabase.co/rest/v1")
+(def service-key config/api-key)
 
-(defn get-users []
+(defn get-schools []
   ;; The table name is `User` in Supabase.
   (let [resp (http/get
-              (str supabase-url "/User")
+              (str supabase-url "/schools")
               {:headers {"apikey" service-key
                          "Authorization" (str "Bearer " service-key)}
                :query-params {"select" "*"}
@@ -21,8 +23,5 @@
 
 (defn -main [& _]
   (println "Starting Supabase Alive...")
-  (let [users (get-users)]
-    (doseq [u users]
-      (println "typeJ" (type u))
-      (prn (:email u))
-      )))
+   (get-schools)
+  )
